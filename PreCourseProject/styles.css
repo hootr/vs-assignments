@@ -1,0 +1,41 @@
+body {
+    background-image: url(/background.jpg);
+}
+
+p {
+    font-size: 55px;
+    color: darkblue;
+
+}
+
+.second {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+
+.click-me {
+    height: 100px;
+    width: 100px;
+    transform: translate(100px, 25px);
+    background-color: darkcyan;
+    color: ghostwhite;
+}
+
+.now-me {
+    height: 100px;
+    width: 100px;
+    transform: translate(25px, 650px);
+    background-color: indigo;
+    color: yellow;
+}
+
+.boolean {
+    width: 400px;
+    background-color:slategrey;
+    color: rgb(0, 0, 0);
+}
+
+#answer {
+    font-size: 35px;
+    color: red;
+}

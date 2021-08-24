@@ -1,0 +1,284 @@
+.france {
+    background-color: grey;
+    height: 200px;
+    width: 400px;
+
+}
+
+.france1 {
+    background-color: #002495;
+    height: 200px;
+    aspect-ratio: 2/3;
+    float: left;
+}
+
+.france2 {
+    background-color: #ffffff;
+    height: 200px;
+    aspect-ratio: 2/3;
+    float: left;
+}
+
+.france3 {
+    background-color: #ED2938;
+    height: 200px;
+    aspect-ratio: 2/3;
+    float: left;
+}
+
+.fbox {
+    background-color: lightgrey;
+    text-align: center;
+    width: 400px;
+}
+
+.germany {
+    background-color:grey;
+    height: 200px;
+    width: 400px;
+    
+}
+
+.germany1 {
+    background-color: #000;
+    height: 75px;
+    width:100% ;
+}
+
+.germany2 {
+    background-color:#DE0002;
+    height:75px;
+    width: 100%;
+}
+
+.germany3 {
+    background-color: #FFCE00;
+    height: 75px;
+    width: 100%;
+}
+
+.gbox {
+    background-color: lightgrey;
+    text-align: center;
+    width: 400px;
+}
+
+.madagascar {
+    background-color: grey;
+    height: 200px;
+    width: 400px;
+
+}
+
+.madagascar1 {
+    background-color: #FFFF;
+    height: 200px;
+    width: 100px;
+
+}
+
+.madagascar2 {
+    background-color: #FC3E32;
+    height: 100px;
+    width: 300px;
+    position: relative;
+    left: 100px;
+    bottom:200px;
+    
+}
+
+.madagascar3 {
+    background-color:#007E39 ;
+    height: 100px;
+    width: 300px;
+    position: relative;
+    left: 100px;
+    bottom: 200px;
+}
+
+.mbox {
+    background-color: lightgrey;
+    text-align: center;
+    width: 400px;
+}
+
+.switzerland {
+    background-color: grey;
+    height: 200px;
+    width: 400px;
+}
+
+.switzerland1 {
+    background-color: #FF0002;
+    height: 200px;
+    width: 400px;
+}
+
+.cross1 {
+    background-color: #FFFF;
+    height: 175px;
+    width: 75px;
+    position: relative;
+    left: 160px;
+    bottom: 190px;
+}
+
+.cross2 {
+    background-color:  #FFFF;
+    height: 65px;
+    width: 300px;
+    position: relative;
+    left: 50px;
+    bottom: 310px;
+
+}
+
+.sbox {
+    background-color: lightgrey;
+    text-align: center;
+    width: 400px;
+}
+
+.sweden {
+    background-color: #0269a6;
+    height: 200px;
+    width: 400px;
+}
+
+.scross1 {
+    background-color: #FECC00;
+    width: 400px;
+    height: 25px;
+    position: relative;
+    bottom: 110px;
+}
+
+.scross2 {
+    background-color: #FECC00;
+    height: 200px;
+    width: 25px;
+    position: relative;
+    left: 100px;
+    bottom: 225px;
+}
+
+.swbox {
+    background-color: lightgrey;
+    text-align: center;
+    width: 400px;
+
+}
+
+.gambia {
+    background-color: #CE1127;
+    height: 200px;
+    width: 400px;
+}
+
+.stripe1 {
+    background-color: #FFFF;
+    height: 15px;
+    width: 400px;
+    position: relative;
+    top: 60px;
+}
+
+.stripe2 {
+    background-color: #FFFF;
+    height: 15px;
+    width: 400px;
+    position: relative;
+    bottom: -120px;
+}
+
+.gambia1 {
+    background-color: #0D1D8B;
+    height: 60px;
+    width: 400px;
+    position: relative;
+    top: 45px;
+}
+
+.gambia2 {
+    background-color: #3B7827;
+    height: 55px;
+    width: 400px;
+    position: relative;
+    top: 60px;
+}
+
+.gmbox {
+    background-color: lightgrey;
+    text-align: center;
+    width: 400px;
+}
+
+.japan{ 
+    background-color: lightgrey;
+    height: 200px;
+    width: 400px;
+}
+
+.japan1{
+    background-color: #FFF;
+    height: 200px;
+    width: 400px;
+    border: 1px solid red;
+    
+
+}
+
+.japan2 {
+    background-color: #BC022C;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    border-radius: 50%;
+    bottom: 175px;
+    left: 120px
+}
+
+.jbox {
+    background-color: lightgrey;
+    text-align: center;
+    width: 400px;
+}
+
+.niger {
+    background: #E15307;
+    height: 200px;
+    width: 400px;
+
+}
+
+.niger1 {
+    background-color: black;
+    height: 70px;
+    width: 400px;
+    position: relative;
+    bottom: 135px;
+}
+
+.niger2 {
+    background-color: #10AF2A;
+    height: 80px;
+    width: 400px;
+    position: relative;
+    top: -136px;
+}
+
+.circle {
+    background-color: #E15307;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 275px;
+    left: 175px;
+}
+
+.nbox {
+    background-color: lightgrey;
+    text-align: center;
+    width: 400px;
+}

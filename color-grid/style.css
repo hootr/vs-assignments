@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box; 
+    font-size: 0px;
+}
+
+.ltpink{
+    height: 200px;
+    width: 100%;
+    background-color: #F5C6D6;
+    margin-bottom: 5px;
+}
+
+
+.pink1{
+    height: 200px;
+    width: 100%;
+    background-color:#EE2E84;
+    margin-bottom: 5px;
+}
+
+.pink2{
+    height: 200px;
+    width: 100%;
+    background-color:#EE2E84;
+    margin-bottom: 5px;
+}
+
+.pink3{
+    height: 200px;
+    width: 100%;
+    background-color:#EE2E84;
+    margin-bottom: 5px;
+}
+
+.pink4{
+    height: 200px;
+    width: 100%;
+    background-color:#EE2E84;
+    margin-bottom: 5px;
+}
+
+.ltblue1{
+    height: 200px;
+    width: 100%;
+    background-color:#85CFD8;
+    margin-bottom: 5px;
+}
+.ltblue2{
+    height: 200px;
+    width: 100%;
+    background-color:#85CFD8;
+    margin-bottom: 5px;
+}
+
+.green{
+    height: 200px;
+    width: 100%;
+    background-color:#8DC63F;
+    margin-bottom: 5px;
+}
+
+.orange{
+    height: 200px;
+    width: 100%;
+    background-color:#E76E34;
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px){
+    * {
+        box-sizing: border-box; 
+        font-size: 0px;
+    }
+    
+    .ltpink{
+        height: 200px;
+        width: 100%;
+        background-color: #F5C6D6;
+        border: 10px solid white;
+    }
+    
+    
+    .pink1{
+        height: 200px;
+        width: 25%;
+        background-color:#EE2E84;
+        border: 12px solid white;
+        display: inline-block;
+    }
+    
+    .pink2{
+        height: 200px;
+        width: 25%;
+        background-color:#EE2E84;
+        border: 12px solid white;
+        display: inline-block;
+    }
+    
+    .pink3{
+        height: 200px;
+        width: 25%;
+        background-color:#EE2E84;
+        border: 12px solid white;
+        display: inline-block;
+    }
+    
+    .pink4{
+        height: 200px;
+        width: 25%;
+        background-color:#EE2E84;
+        border: 12px solid white;
+        display: inline-block;
+    }
+    
+    .ltblue1{
+        height: 200px;
+        width: 50%;
+        background-color:#85CFD8;
+        border: 11px solid white;
+        display: inline-block;
+    }
+    
+    .ltblue2{
+        height: 200px;
+        width: 50%;
+        background-color:#85CFD8;
+        border: 11px solid white;
+        display: inline-block;
+    }
+    
+    .green{
+        height: 200px;
+        width: 75%;
+        background-color:#8DC63F;
+        border: 10px solid white;
+        display: inline-block;
+    }
+    
+    .orange{
+        height: 200px;
+        width: 25%;
+        background-color:#E76E34;
+        border: 10px solid white;
+        display: inline-block;
+    }
+
+}
