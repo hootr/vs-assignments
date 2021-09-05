@@ -1,0 +1,48 @@
+.discover-main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.discover-main-section .tandem-flight{
+    width: 30vw;
+    margin-left: 1rem;
+    height: auto;
+    max-width: 500px;
+    
+    
+    
+}
+
+.discover-main-section .tandem{
+    width: 30vw;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    height: auto;
+    max-width: 500px;
+}
+
+.discover-main-section .subtitle2{
+    width: 30vw;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    height: auto;
+    max-width: 500px;
+}
+
+@media only screen and (max-width: 800px){
+    .discover-main-section{
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .discover-main-section .tandem-flight{
+        margin-top: 2rem;
+        height: 30vh;
+        width: auto;
+    }
+}
+
+
+

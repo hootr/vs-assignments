@@ -1,0 +1,99 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+.full-height-grow{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #46282e;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    min-height: 100vh;
+}
+.brand-logo-name{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.main-nav ul, .footer-nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.main-nav a, .footer-nav a{
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.main-nav a:hover, .footer-nav a:hover{
+    color:red
+}
+.main-header, .main-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.main-header{
+    height: 140px;
+}
+
+.main-footer{
+    height: 70px;
+    background-color: #202027;
+    font-weight: bold;
+}
+.main-footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    flex-grow: 1 ;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.subtitle{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+
+}
+
+.btn {
+    color: white;
+    background-color: #1762A7;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: .9rem;
+    width: 150px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: #2180d8;
+}
+
+.btn:focus{
+    background-color: #2796ff;
+}
