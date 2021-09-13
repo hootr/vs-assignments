@@ -22,7 +22,7 @@ function handInHole() {
         ("You must choose Yes or No.... Not that hard...")
     }
 
-    return "Is that your final decision? "
+    
 }
 
 function findTheKey() {
@@ -38,7 +38,7 @@ function findTheKey() {
 		("You must choose yes or no... its not hard...")
         console.log('')
 	}
-	return "Is that your choice? lets hope you were right!!!"
+	
 }
 
 function tryTheDoor() {
@@ -47,10 +47,10 @@ function tryTheDoor() {
 
     if (confirm === "yes" || confirm === "y"   ) {
         console.log("Door is Locked has to be a way to open it ")
-        escaped == false
+        escaped = true
         
        
-    } else if (confirm === "no" || confirm === "n") {
+    } else if (confirm === "yes" || confirm === "y") {
         console.log("It would have been a waste of time without a key")
         aquiredKey = true
         escaped = true
@@ -60,11 +60,8 @@ function tryTheDoor() {
         console.log('')
 	}
     
-    return "Are you sure? "
+    
 }
-
-
-
 
 function giveOptions() {
     let response = readlineSync.question(
@@ -87,22 +84,6 @@ function giveOptions() {
     } 
 }
 
-// var certainDeath = readlineSync.question(
-// 	"Do you want to put your hand in the hole?"
-// )
-// var option2 = readlineSync.question("Do you want to find the Key?")
-// var option3 = readlineSync.question("Do you want to open the door?")
-// var deadlyThings = ["Poisonous Spider", "Deadly Snake"]
-
-// for (var i = 0; i < deadlyThings.length; i++){
-//     var certainDeath;
-//     if (i % 2 === 0) {
-//         certainDeath = true
-//     } else {
-//         certainDeath = false
-//     }
-//     console.log(handinhole(certainDeath, deadlyThings[i]))
-// }
 
 
 // ----------* Logic *---------//
