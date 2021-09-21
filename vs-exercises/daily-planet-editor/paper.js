@@ -11,20 +11,15 @@ just fix the existing ones.
 
 var enemies = ["Lex", "Batman", "Darkseid", "Brainiac", "General Zod", "Doomsday"];
 
-function whoWins(isThereKryptonite, enemyName)
-{
-if (!isThereKryptonite)/* Not sure if that is the proper use of the "!"*/
-{
-    return "Superman beats " + enemyName + ", of course";
-}
-
-else{
-    return "Depends on how quick Superman can get rid of the Kryptonite. " + enemyname + " could possibly win this one.";
-}
+function whoWins(isThereKryptonite, enemyName){
+    if (!isThereKryptonite){
+         return "Superman beats " + enemyName + ", of course";
+    } else{
+        return "Depends on how quick Superman can get rid of the Kryptonite. " + enemyname + " could possibly win this one.";
     }
+}
 
-for (var i = 0; i < enemies.length; i++)
-{
+for (var i = 0; i < enemies.length; i++){
     var isThereKryptonite;
     if (i % 2 === 0) {
         isthereKryptonite = true;

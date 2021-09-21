@@ -17,7 +17,7 @@ function createDropDown(){
         dropDown.append(option)
     }
     dropDown.addEventListener("click", function(e){
-        e.target.parent.backgroundColor = target.value
+        e.target.parentElement.style.backgroundColor = e.target.value
     })
     return dropDown
 }

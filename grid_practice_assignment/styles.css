@@ -7,7 +7,7 @@
 .grid {
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1.0fr 1.5fr 1.0fr;
     grid-template-areas: 
     "header header header"
@@ -81,4 +81,4 @@
     
     }
 }
-    
+
