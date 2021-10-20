@@ -1,0 +1,78 @@
+header{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.calc {
+    box-sizing: border-box;
+    padding: 5rem;
+    margin-top: 5rem;
+    
+    width: 600px;
+    
+    
+    
+    
+}
+
+#addition {
+    background-color: rgb(9, 134, 134);
+    padding: 5rem;
+    width: 500px;
+
+}
+
+#subtract {
+    background-color:rgb(9, 134, 134);
+    padding: 5rem;
+    width: 500px;
+    
+}
+
+#multiply{
+    background-color: rgb(9, 134, 134);
+    padding: 5rem;
+    width: 500px;
+    
+}
+
+span{
+    color:white;
+    font-size: 20px;
+}
+
+section{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: red;
+   
+}
+
+p{
+    color:white;
+    font-size: 20px;
+}
+
+#add:hover{
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+}
+
+#sub:hover{
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+}
+
+#multi:hover{
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+}
