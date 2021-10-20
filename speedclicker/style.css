@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: lightblue;
+}
+
+#button {
+    font-weight: bold;
+    background-color:#a0f7fa;
+    width: 150px;
+}
+
+#refresh {
+    font-weight: bold;
+    background-color:#a0f7fa;
+}
+
+.countdown{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+}

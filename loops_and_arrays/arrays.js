@@ -47,3 +47,6 @@ console.log(food)
 console.log("====================")
 var allAtOnce = food.reverse().join(",")
 console.log(allAtOnce)
+
+
+

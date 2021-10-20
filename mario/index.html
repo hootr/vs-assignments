@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mario Pest Control</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body>
+    <header class="header"> 
+        <h1 class="title">Mario Pest Control</h1>
+        <div class="address">
+            <div class="email"></div>
+        </div>
+    </header>
+
+<!-- Start of the Main section-->
+    <main>
+        <div class="container">
+            <form name="price" id="price">
+
+                <label for="goomba">
+                    <div>
+                        <img src="./images/goomba.png">
+                        <div id="goomba">Each Goomba is 5 coins</div>
+                        <input name="goom" id="goom" type="number" min="0">
+                        <input type="text" id="goombaCost" class="disabled" disabled value="0">
+                    </div>
+                </label>
+
+                <label for="bobOmbs">
+                    <div>
+                        <img src="./images/newbobomb.png">
+                        <div id="bomb">Each Bob-Ombs is 7 coins</div>
+                        <input name="bobs" id="bobs" type="number" min="0">
+                        <input type="text" id="bobCost" class="disabled" disabled value="0">
+                    </div>
+                </label>
+
+                <label for="cheepCheeps">
+                    <div>
+                        <img src="./images/newcheepcheep.png">
+                        <div id="cheeps">Each Cheep-Cheeps is 11 coins</div>
+                        <input name="cheepCheeps" id="cheepcheeps" type="number" min="0">
+                        <input type="text" id="cheepCheepCost" class="disabled" disabled value="0">
+                    </div>
+                </label>
+                <label>
+                    <div id="total">Total Price:</div>
+                    <div id="totalP">0</div>
+                </label>
+            </form>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="footercontainer">
+            <address>
+                <span>100 Main Ave</span>
+                <span>Mushroom Kingdom</span>
+            </address>
+        <div>
+            <a href="www.mariopestcontrol.com">Mario Pest Control</a>
+            
+        </div>
+        <div>
+            <a href="mailto:mariopest@info.com">Contact us Via Email</a>
+        </div>
+
+
+        </div>
+    </footer>
+
+
+
+    
+    <script src='main.js'></script>
+</body>
+</html>

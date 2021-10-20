@@ -1,0 +1,267 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body {
+    margin: 0;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.page-wrapper {
+    font-size: 11px;
+}
+
+header {
+    background-image: url(../img/huntington.png);
+    background-color:forestgreen;
+    height: 230px;
+    background-position: left;
+    background-size: cover;
+    text-align: cover;
+    font-size: 80%;
+}
+
+h1 { 
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 3px 5px 3px black;
+    font-size: 450%;
+    padding: 60px 0px 15px 0px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: lighter;
+    margin: 0px;
+    
+}
+
+h2 {
+    background-image: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+    background-position-x: -30px;
+    color: rgba(255, 255, 255, 0.8);
+    font-style: italic;
+    font-family: 'Satisfy', cursive;
+    font-size: 200%;
+    letter-spacing: 0.5px;
+    width: 200px;
+    margin: auto;
+    padding: 15px 0px 40px 30px;
+    text-indent: 8%;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 3px;
+}
+
+#zen-summary, #zen-preamble, #zen-explanation {
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-size: 12px;
+    padding-top: 1px;
+    padding-left: 75px;
+    padding-bottom: 1px;
+    padding-right: 75px;
+    color: slategray;
+    line-height: 150%;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+#zen-participation, #zen-benefits {
+    background: rgb(121, 158, 126) 0.5% url(../img/bamboo.png);
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-size: 12px;
+    padding-top: 1px;
+    padding-left: 75px;
+    padding-bottom: 1px;
+    padding-right: 75px;
+    color: rgb(240, 244, 241);
+    text-align: justify;
+    line-height: 13px;
+}
+
+#zen-participation p {
+    margin: 0px;
+}
+
+#zen-benefits p {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+#zen-requirements {
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-size: 12px;
+    padding-top: 1px;
+    padding-left: 75px;
+    padding-bottom: 1px;
+    padding-right: 75px;
+    color: slategray;
+    line-height: 150%;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+[role=contentinfo] {
+    background-color:rgb(118, 158, 128);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    color: rgb(169, 170, 169);
+    text-align: center;
+    margin: 30px -80px 0px;
+}
+
+p[role=contentinfo] > a {
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+    color: whitesmoke;
+    line-height: 140%;
+    opacity: 1;
+}
+
+footer a:link{
+    text-decoration: none;
+    color: whitesmoke
+}
+
+footer a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+
+footer {
+    background-color:rgb(30, 80, 76);
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    color: white;
+    text-align: center;
+    margin: -1px -5px 0px;
+    word-spacing: 35px;
+}
+
+/* columns stuff */
+.select {
+    visibility: hidden;
+}
+
+.archives {
+    visibility: hidden;
+}
+
+.resources {
+    visibility: hidden;
+}
+
+
+[role=navigation] {
+    text-align: center;
+    background-color: rgb(215, 225, 217);
+    padding: 0px 0px 0px;
+}
+    
+[role=navigation] ul{
+    padding: 0px 0px 0px;
+    list-style-type: none;
+    margin-top: -24px;
+}
+    
+.design-selection > nav > ul > li {
+    float: left;
+    width: 50%;
+    border-bottom: 1px solid lightgrey;
+    padding: 25px 0px 25px 0px;
+    word-spacing: 1px;
+}
+
+.design-selection > nav > ul > li > .design-name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+}
+
+.design-selection > nav > ul > li > .designer-name{
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+    color: rgb(171, 172, 171);
+    line-height: 140%;
+    letter-spacing: 0.5px;
+}
+
+.design-archives a:link {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.design-archives > nav > ul > li {
+    float: left;
+    width: 50%;
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-size: 10px;
+    border-bottom: 1px solid lightgrey;
+    padding: 25px 0px 25px 0px;
+    word-spacing: 1px;
+}
+
+/* the bottom of the pageeeeee */
+
+.zen-resources > ul {
+    column-count: 2;
+}
+
+.zen-resources > ul >li {
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-size: 11px;
+    padding: 0px 0px 15px 15px;
+    text-shadow: 0px 0px 1px black; 
+    opacity: 0.4;
+    text-align: center;
+    list-style-type: none;
+} 
+
+.zen-resources a {
+    text-decoration: none;
+    color: black;
+}
+
+#zen-resources {
+    background: rgb(121, 158, 126) 0.5% url(../img/bamboo.png);
+    background-size: contain;
+    background-origin: content-box;
+    margin-top: 75px;
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-size: 12px;
+    padding-top: 0px;
+    padding-left: 75px;
+    padding-bottom: 5px;
+    padding-right: 75px;
+    color: rgb(240, 244, 241);
+    text-align: justify;
+    line-height: 13px;
+}

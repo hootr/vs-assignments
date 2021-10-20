@@ -1,0 +1,52 @@
+
+
+h1 {
+    text-align: center;
+    background-color: green;
+}
+
+#airline{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: fit-content
+
+
+
+
+}
+
+.name-age {
+    background-color: bisque;
+    width: 150px;
+    
+}
+
+p{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input{
+    background-color: black;
+}
+
+select{
+    background-color: bisque;
+    width: 150px;
+}
+
+button{
+    width: 65px;
+}
+
+img{
+    justify-content: center;
+    margin-left: 1500px;
+    margin-top: -250px;
+    align-content: center;
+
+}

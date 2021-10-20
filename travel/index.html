@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Salt Lake Air</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body>
+    <h1>Welcome to Salt Lake Air</h1>
+    <p>Fill out this form and schedule a flight today.</p>
+    <form id="airline">
+        <label for="">First Name:</label>
+        <input  class="name-age"type="text" name="first-name">
+        
+        <br>
+        <label for="">Last Name:</label>
+        <input class="name-age" type="text" name="last-name">
+        
+        <br>
+        <label for="">Age:</label>
+        <input class="name-age" type="digit" name="age">
+        
+        <br>
+        <input class="gender" type="radio" name="gender" value="male" id="male">
+        <label for="male">Male</label>
+        <br>
+        <input class="gender" type="radio" name="gender" value="female" id="female">
+        <label for="female">Female</label>
+        <br>
+        <label for="">Where would you like to go?</label>
+        <br>
+        <select name="travel-location">
+            <option value="Denver Colorado">Denver</option>
+            <option value="Phoenix Arizona">Phoenix</option>
+            <option value="overthere">Las Vegas</option>
+        </select>
+        
+        <br>
+        <button type="button" id="submit">Submit</button>
+        <img src="plane.png">
+    </form>
+
+        
+    
+
+    <script src='main.js'></script>
+</body>
+</html>
