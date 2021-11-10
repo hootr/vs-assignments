@@ -1,36 +1,3 @@
-// const h1 = document.createElement("h1")
-// h1.textContent = "Javascript made this!!"
-// h1.className = "header"
-// document.getElementById("header").appendChild(h1)
-
-// const h2 = document.createElement("h2")
-// h2.style.textAlign = "center"
-// h2.innerHTML = '<span class="name">Robert</span> wrote the javascript'
-// document.getElementById("header").appendChild(h2)
-
-// const messages = document.getElementsByClassName("message")
-
-// messages[0].textContent = "You are the absolute best"
-// messages[1].textContent = "Awe! thank you! I really needed that"
-// messages[2].textContent = "You are very welcome."
-// messages[3].textContent = "You are a fantastic human"
-
-// const form = document['message']
-// form.addEventListener('submit', () => {
-//   alert('its working')
-// })
-
-// for(let i = 0; i < messages.length; i++ ){
-//   messages[i].classList.toggle("themeTwo")
-// }
-
-// let remove = document.getElementById('#clear-button')
-// const myDiv = document.getElementsByClassName('messages')
-// const parent = myDiv.parentNode
-
-// myDiv.remove()
-
-
 //  *** HEADER ELEMENT *** ///
 const h1 = document.createElement("h1")
 h1.textContent = "Javascript made this!!"
@@ -41,6 +8,8 @@ const h2 = document.createElement("h2")
 h2.style.textAlign = "center"
 h2.innerHTML = '<span class="name">Robert Hooten</span> wrote the javascript'
 document.getElementById("header").appendChild(h2)
+
+
 const messagesContainer = document.querySelector('.messages')
 
 const clearBtn = document.getElementById('clear-button')

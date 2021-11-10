@@ -26,11 +26,13 @@ window.addEventListener('mousewheel', () => {
 })
 
 
-window.addEventListener('keydown', checkKeyPress, false);
+window.addEventListener('keydown', checkKeyPress);
 
 function checkKeyPress(key){
     if (key.keyCode == "65"){
         alert('You pressed A')
+    
+
     } else if (key.keyCode == "82"){
         myDiv.style.backgroundColor = "red"
     }else if (key.keyCode == "66"){

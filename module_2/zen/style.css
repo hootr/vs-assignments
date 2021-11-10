@@ -22,7 +22,7 @@ a:hover {
 }
 
 header {
-    background-image: url(../img/huntington.png);
+    background-image: url(./img/huntington.png);
     background-color:forestgreen;
     height: 230px;
     background-position: left;
@@ -84,7 +84,7 @@ h3 {
 }
 
 #zen-participation, #zen-benefits {
-    background: rgb(121, 158, 126) 0.5% url(../img/bamboo.png);
+    background: rgb(121, 158, 126) 0.5% url(./img/bamboo.png);
     font-family: 'IBM Plex Mono', sans-serif;
     font-size: 12px;
     padding-top: 1px;
@@ -119,7 +119,7 @@ h3 {
 }
 
 [role=contentinfo] {
-    background-color:rgb(118, 158, 128);
+    background:rgb(121, 158, 126) 0.5% url(./img/koi.jpg); 
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 18px;
@@ -251,7 +251,7 @@ footer {
 }
 
 #zen-resources {
-    background: rgb(121, 158, 126) 0.5% url(../img/bamboo.png);
+    background: rgb(121, 158, 126) 0.5% url(./img/bamboo.png);
     background-size: contain;
     background-origin: content-box;
     margin-top: 75px;
