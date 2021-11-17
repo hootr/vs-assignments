@@ -30,9 +30,12 @@ refresh.addEventListener('click', function(){
      if(timer === 0){
          id.innerHTML = "TIMES UP!"
          alert('you clicked ' +  count + ' times good job' )
-     }
 
-     
+         button.disabled = true
+         
+     } 
+
+      
  }, 1000)
 
 
